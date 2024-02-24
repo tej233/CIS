@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link href="bootstrap-5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            margin: 0;
+        }
+
+        .admin-container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #e41f1f;
+        }
+
+        .btn-logout {
+            background-color: #e41f1f;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="admin-container">
+        <h2>Welcome to the Admin Page</h2>
+
+        <!-- Example Admin Content (Table) -->
+        <table class="table mt-4">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Role</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Admin User</td>
+                    <td>admin@example.com</td>
+                    <td>Administrator</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>John Doe</td>
+                    <td>john.doe@example.com</td>
+                    <td>Editor</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+
+        <div class="mt-4">
+            <a href="#" class="btn btn-logout">Logout</a>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS (optional, if needed) -->
+    <script src="bootstrap-5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
